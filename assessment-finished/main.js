@@ -7,9 +7,9 @@ function randomValueFromArray(array){
   return array[random];
 }
 
-const storyText = 'その日は華氏94度と暑かった, なので :insertx: 散歩に出かけた. 彼らがついた時、 :inserty:, 彼らはしばらくの間恐怖に立ち尽くしていたが、 :insertz:. ボブは一部始終を見ていたが、特段驚かなかった。 — :insertx: 体重は300ポンドあって、その日はとても暑かったからだ。';
+const storyText = 'その日は華氏94度と暑かった, なので :insertx: 散歩に出かけた. :inserty:, 彼らはしばらくの間恐怖に立ち尽くしていた。 :insertz:. ボブは一部始終を見ていたが、特段驚かなかった。 — :insertx: 体重は300ポンドあって、その日はとても暑かったからだ。';
 const insertX = ['グリーン・ゴブリン', '太った男', 'サンタクロース'];
-const insertY = ['教会の炊き出し', 'ディズニーランド', 'ホワイトハウス'];
+const insertY = ['教会の炊き出しに着いた', 'ディズニーランドに着いた', 'ホワイトハウスに着いた'];
 const insertZ = ['自然発火した', '歩道の水たまりに溶けてしまった', 'なめくじになってどこかに行ってしまった'];
 
 randomize.addEventListener('click', result);
