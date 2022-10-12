@@ -28,14 +28,14 @@ function result() {
 
   if (customName.value !== '') {
     const name = customName.value;
-    newStory = newStory.replace('Bob', name);
+    newStory = newStory.replace('ボブ', name);
   }
 
   if (document.getElementById("uk").checked) {
     const weight = `${Math.round(300*0.0714286)} stone`;
     const temperature =  `${Math.round((94-32) * 5 / 9)} centigrade`;
-    newStory = newStory.replace('94 fahrenheit', temperature);
-    newStory = newStory.replace('300 pounds', weight);
+    newStory = newStory.replace('華氏94度', temperature);
+    newStory = newStory.replace('300ポンド', weight);
   }
 
   story.textContent = newStory;
